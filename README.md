@@ -18,7 +18,7 @@ Each cutscene consists of multiple scenes, each one using a separate Layout, as 
 
 # I got no code knowledges or whatsoever, but I know how to make layouts and stuff, what is the process I should follow to make my own opening cutscene ?
 Heh, simple enough !
-just ask me on discord (RedStoneMatt#2826) a build of NewerSMBW's code with re-enabled cutscenes, then name your non-widescreen opening cutscene's CS file "Opening.cs", and the widescreen version "WideOpening.cs", and then make a CS folder in your game, put both CS files, add your layouts (named accordingly to what you set in the CS file) and boot the game !
+Download [this build](https://drive.google.com/file/d/11QvCjqL1fzc4lIgS5Mz3ZBgb0hzYgp6C/view?usp=sharing) of NewerSMBW's code with re-enabled cutscenes and put it in the NewerRes folder of your game ! Then name your non-widescreen opening cutscene's CS file "Opening.cs", and the widescreen version "WideOpening.cs", and then make a CS folder in your game, put both CS files, add your layouts (named accordingly to what you set in the CS file) and boot the game !
 
 # Usage
 Build the code by yourself using [Visual Studio 2019](https://visualstudio.microsoft.com/downloads/) or download the latest [Compiled Binary](https://github.com/RedStoneMatt/Newer-Cutscene-Editor/releases) and open the software.
