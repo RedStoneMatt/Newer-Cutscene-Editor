@@ -1,0 +1,14 @@
+In this (completly dumb and useless) example, here's what will happen:
+
+The first scene plays:
+-The Layout stored in AwesomeCutscene_1.arc from the CS folder will show up
+-The Sound ID 1847 (Which is STRM_BGM_CHIKA_FAST -> the fast version of the underground music) will start to play after 10 frames
+-After 100 frames, the SFX ID 868 (Which is SE_VOC_MA_THANK_YOU -> Mario saying "Thank You") will player
+-Then, after 200 frames (so 100 frames after the mario sfx played), the fast underground music will stop to play, taking only one frame to go from 100% volume to 0%
+The second scene plays:
+-The SFX ID 869 (Which is SE_VOC_LU_PLAYER_JOIN -> Luigi when he joins the game) will play after 10 frames.
+-It will play afain after 110 frames (so 100 frames after the last time it played)
+
+Then the cutscene ends.
+
+Again, that's just a (very dumb) example, just so you understand what does everything do, now you can unlock the power of cutscenes in NewerSMBW ^w^
